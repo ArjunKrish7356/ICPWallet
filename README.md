@@ -49,18 +49,4 @@ This project implements a basic token wallet for the Internet Computer Protocol 
      ```
      dfx canister call token_wallet get_balance '(principal "account-principal-id")'
      ```
-
-## Security Considerations
-
-- This is a basic implementation and should not be used in production without further security audits and improvements.
-- Proper access control mechanisms should be implemented to restrict sensitive operations.
-- Consider implementing multi-signature functionality for enhanced security.
-- Implement proper error handling and input validation to prevent unexpected behavior.
-
-## Future Improvements
-
-- Implement more advanced features such as token minting and burning.
-- Add support for multiple token types.
-- Implement a frontend interface for easier interaction with the wallet.
-
-For any technical support or inquiries, please open an issue in this GitHub repository.
+     
